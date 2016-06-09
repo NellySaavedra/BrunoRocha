@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BrunoRocha</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+
+		<!-- Opciones de fuentes -->
+    	<link href='https://fonts.googleapis.com/css?family=Poppins:700,400' rel='stylesheet' type='text/css'>
+    
+		<!-- Para Iconos -->		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    	<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+		<!-- Para efectos wow -->
+        <link rel="stylesheet" href="css/animate.min.css" type="text/css">  
+        <!-- Hoja de estilos   -->
+	    <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="index.html" type="text/css">
+
+	</head>
+	
+    <body>
+	<header>
+         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- para movil-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <ul>
+                            <li><span class="LetraB">B</span>runo<span class="LetraB">R</span>ocha</li>
+                        </ul>
+                    </a>
+                </div>
+                <!-- links-->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="wow fadeInDown Inicio" data-wow-duration="200ms" data-wow-delay="200ms">
+                            <a href="index.html"><span class="LetraB">H</span>ome</a>
+                        </li>
+                        <li class="wow fadeInDown proyectos" data-wow-duration="350ms" data-wow-delay="350ms">
+                            <a href="#proyectos"><span class="LetraB">M</span>ar</a>
+                        </li>
+                        <li class="wow fadeInDown sobreMi" data-wow-duration="460ms" data-wow-delay="460ms">
+                            <a href="#sobreMi"><span class="LetraB">F</span>elicidade</a>
+                        </li>
+                        <li class="wow fadeInDown laboratoria" data-wow-duration="570ms" data-wow-delay="570ms">
+                            <a href="#laboratoria"><span class="LetraB">F</span>utball</a></li>
+                        <li class="wow fadeInDown laboratoria" data-wow-duration="570ms" data-wow-delay="570ms">
+                            <a href="#laboratoria"><span class="LetraB">P</span>escaria</a>
+                        </li>
+                        <li class="wow fadeInDown contacto" data-wow-duration="680ms" data-wow-delay="680ms">
+                            <a href="contacto.html"><span class="LetraB">C</span>ontacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 MtopBio ">
+                    <h3>Biografía</h3>
+                    <img src="fotos/bruno.png" alt="" class="ImgBruno">
+                    <hr>
+                    <p><span class="LetraB">B</span>runo é natural de Salvador-BA mas já viajou e viveu em países como Peru, Estados Unidos, Equador, Portugal e Suiça. Formado em Administração de Empresas e cursando pós graduação em Design Digital e Novas Mídias pela Universidade de Belas Artes de SP, Bruno vê na fotografia não só uma forma de expressão mas como a grande forma de comunicação da atualidade.</p>
+                    <p>A criação do site foi feito com intuito de compartilhar algumas imagens e disponibilizá-las para venda, além de possibilitar a troca de informações e idéias.</p>
+                </div>
+                <div class="col-md-6 col-xs-12 MtopBio">
+                    <h3>Contacto</h3>
+                    <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" required="required" placeholder="Nome">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" required="required" placeholder="Mail">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" required="required" placeholder="Assunto">
+                        </div> 
+                        <div class="form-group">
+                            <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Mensagem"></textarea>
+                        </div> 
+                        <div class="form-group text-right">
+                            <input type="submit" name="submit" class="btn btn-submit DisenoB" value="Enviar">
+                        </div>
+                        <div class="text-left">
+                            <a href="" class="IcoFooter"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i> @bnrocha</a><br>
+                            <a href="" class="IcoFooter"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> XXXXXXXX</a>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    Copyrigh &copy; <span class="LetraB">B</span> r u n o <span class="LetraB">R </span> o c h a | 2016
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+
+	<script>window.addEventListener("hashchange", function() { scrollBy(0, -90) })</script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.lettering-0.6.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+	    new WOW().init();
+	</script>	
+	</body>
+</html>

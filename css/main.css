@@ -1,0 +1,192 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+ul {
+	list-style: none;
+}
+.LetraB {
+	color: #F9A91A;
+	font-size: 20px;
+	font-weight: bold;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-inverse {
+    background-color: #0A0619;
+    padding: 1%;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin: 0% 3%;
+ }
+ .navbar-inverse .navbar-nav>li>a:hover {
+    color: #FFFFFF;
+    background-color: #06005C;
+}
+/*Diseño de Hamburguesa*/
+ .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color:#018B41;
+}
+/*CONTACTO*/
+.MtopBio {
+    margin-top: 8%;
+    /*padding: 0% 5%;*/
+    border-left: border: 1px solid #F9A91A;
+}
+form {
+    padding: 3%;
+    background-color: rgba(158, 158, 158, 0.12);
+    margin: 2% 0% 2% 0%;
+    border-radius: 10px;
+}
+hr {
+    border: 1px solid #F9A91A;
+}
+.DisenoB {
+	background-color: #06005C;
+	color: #FFFFFF;
+	width: 100%;
+}
+.DisenoB:hover {
+	background-color: #018B41;
+	color: #FFFFFF;
+}
+.ImgBruno {
+	width: 30%;
+    padding: 2% 0% 4% 0%;
+}
+.TextContac {
+    /*padding-bottom: 6%;*/
+}
+h3 {
+    padding: 3% 0%;
+}
+/*Diseño de Footer*/
+footer {
+    padding: 1% 0%;
+	background-color: #0A0619;
+    color: #FFFFFF;
+    margin-top: 3%;
+    width: 100%;
+}
+.IcoFooter {
+	margin: 0px 1%;
+	color: #018B41;
+}
+.IcoFooter:hover {
+	color: #06005C;
+}
+.MFooter {
+    margin-top: 40%;
+}
+/*----------------Ceci----------------*/
+.MtopCarrusel {
+    margin-top: 80px;
+}
+a {
+    text-decoration: none !important;
+}
+.item img {
+    position: relative;
+    top: -150px;
+}
+#myCarousel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+}
+.carousel-inner {
+    cursor: default;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+}
+.carousel-control {
+    width: 5%;
+    opacity: 1;
+}
+.carousel-control.left {
+    background-image: inherit;
+}
+.carousel-control.right {
+    background-image: inherit;
+}
+.catalogo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    opacity: 0;
+    transition: all .4s ease-in;
+    cursor: pointer;
+}
+.catalogo:hover {
+    opacity: 1;
+}
+.title {
+    position: absolute; 
+    font-size: 5em; 
+    color: #ffffff;
+    line-height: 60px; 
+    border: 5px solid white; 
+    padding: 5% 12%;
+    margin: 15% 25%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+/* CATALOGOs */
+#regata {
+    background: rgba(28,16,73,0.60);
+}
+#felicidade {
+    background: rgba(1,139,65,0.60);
+}
+#navegador {
+    background: rgba(3,91,36,0.60);
+}
+#regataDos {
+    background: rgba(214,180,4,0.60);
+}
+
+/* */
+
+@media (max-width: 750px) { 
+    #myCarousel {
+        height: 240px;   
+    }
+    .carousel-inner {
+        height: 240px; 
+    }
+    .title {
+        font-size: 3em;
+        margin: 16%;
+    }
+    .item img {
+        position: inherit;
+        top: 0;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 970px) {
+    #myCarousel {
+        height: 500px;   
+    }
+    .carousel-inner {
+        height: 500px; 
+    }
+    .title {
+        margin: 23% 19%;
+    }
+    .item img {
+        position: inherit;
+        top: 0;
+    }
+}

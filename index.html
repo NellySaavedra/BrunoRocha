@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>BrunoRocha</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+
+		<!-- Opciones de fuentes -->
+    	<link href='https://fonts.googleapis.com/css?family=Poppins:700,400' rel='stylesheet' type='text/css'>
+    
+		<!-- Para Iconos -->		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    	<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+		<!-- Para efectos wow -->
+        <link rel="stylesheet" href="css/animate.min.css" type="text/css">  
+        <!-- Hoja de estilos   -->
+	    <link rel="stylesheet" href="css/main.css" type="text/css">
+	    <link rel="stylesheet" href="contacto.html" type="text/css">
+
+	</head>
+
+    <body>
+	<header>
+		 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- para movil-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+	                    <ul>
+	                     	<li><span class="LetraB">B</span>runo<span class="LetraB">R</span>ocha</li>
+	                    </ul>
+                    </a>
+                </div>
+                <!-- links-->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="wow fadeInDown Inicio" data-wow-duration="200ms" data-wow-delay="200ms">
+                            <a href="index.html"><span class="LetraB">H</span>ome</a>
+                        </li>
+                        <li class="wow fadeInDown proyectos" data-wow-duration="350ms" data-wow-delay="350ms">
+                            <a href="#proyectos"><span class="LetraB">M</span>ar</a>
+                        </li>
+                        <li class="wow fadeInDown sobreMi" data-wow-duration="460ms" data-wow-delay="460ms">
+                            <a href="#sobreMi"><span class="LetraB">F</span>elicidade</a>
+                        </li>
+                        <li class="wow fadeInDown laboratoria" data-wow-duration="570ms" data-wow-delay="570ms">
+                            <a href="#laboratoria"><span class="LetraB">F</span>utball</a>
+                        </li>
+                        <li class="wow fadeInDown laboratoria" data-wow-duration="570ms" data-wow-delay="570ms">
+                            <a href="#laboratoria"><span class="LetraB">P</span>escaria</a>
+                        </li>
+                        <li class="wow fadeInDown contacto" data-wow-duration="680ms" data-wow-delay="680ms">
+                            <a href="contacto.html"><span class="LetraB">C</span>ontacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+    <section>
+        <div class="container-fluid MtopCarrusel">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                            <a href="" class="item active wow animated fadeInRight">
+                              <img src="fotos/regata/regata.jpg" alt="">
+                              <div id="regata" class="catalogo">
+                                <div class="title">Mar</div>
+                              </div>
+                            </a>
+
+                            <a href="" class="item wow animated fadeInRight">
+                              <img src="fotos/felicidade.jpg" alt="">
+                              <div id="felicidade" class="catalogo">
+                                <div class="title">Felicidade</div>
+                              </div>
+                            </a>
+
+                            <a href="" class="item wow animated fadeInRight">
+                              <img src="fotos/navegador.jpg" alt="">
+                              <div id="navegador" class="catalogo">
+                                <div class="title">Futball</div>
+                              </div>
+                            </a>
+                            
+                            <a href="" class="item wow animated fadeInRight">
+                              <img src="fotos/regata/regata2.jpg" alt="">
+                                <div id="regataDos" class="catalogo">
+                                    <div class="title">Pescaria</div>
+                                </div>
+                            </a>
+
+                        <div>
+                    <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+	<script>window.addEventListener("hashchange", function() { scrollBy(0, -90) })</script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+	    new WOW().init();
+	</script>	
+		
+	</body>
+</html>
