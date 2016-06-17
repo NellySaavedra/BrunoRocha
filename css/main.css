@@ -25,6 +25,10 @@ ul {
     color: #FFFFFF;
     background-color: #06005C;
 }
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: #018B41;
+}
+
 /*Diseño de Hamburguesa*/
  .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color:#018B41;
@@ -83,7 +87,7 @@ footer {
 }
 /*----------------Ceci----------------*/
 .MtopCarrusel {
-    margin-top: 80px;
+    margin-top: 81px;
 }
 a {
     text-decoration: none !important;
@@ -130,7 +134,6 @@ a {
     opacity: 1;
 }
 .title {
-    position: absolute; 
     font-size: 5em; 
     color: #ffffff;
     line-height: 60px; 
