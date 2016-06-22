@@ -1,0 +1,134 @@
+* {
+    font-family: 'Poppins', sans-serif;
+} 
+
+/*azul -- rgba(48,26,128,0.60)*/
+/*azul oscuro -- rgba(28,16,73,0.60)*/
+/*verde claro -- rgba(1,139,65,0.60)*/
+/*verde oscuro -- rgba(3,91,36,0.60)*/
+/*amarillo -- rgba(214,180,4,0.60)*/
+
+a {
+	text-decoration: none !important;
+}
+
+.col-md-12, .col-xs-12 {
+	height: 100%;
+	padding-right: 0 !important; 
+	padding-left: 0 !important;
+}
+
+section {
+    letter-spacing:-1px;
+    width:13500px;
+   	position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+
+.photo {
+	margin:0px;
+    bottom:0px;
+    width:1350px;
+    float:left;
+    height:100%;
+    color: transparent;
+    opacity: 0.7;
+    background-size: cover;
+    background-position-y: 95%;
+    background-repeat: no-repeat;  
+}
+.photo:hover {
+	color: white;
+    opacity: 1;
+}
+h3 {
+	margin: 1% 0 1% 88%;
+    text-align: center;
+    border: 5px solid transparent;
+    padding: 10px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+/* ---------- CATALOGO REGATA ---------- */
+.regata #photo1 {
+	background-image: url("../fotos/regata/regata1.jpg");
+	background-position-y: 70%;
+}
+.regata #photo2 {
+	background-image: url("../fotos/regata/regata2.jpg");
+}
+.regata #photo3 {
+	background-image: url("../fotos/regata/regata3.jpg");
+}
+.regata #photo4 {
+	background-image: url("../fotos/regata/regata.jpg");
+}
+.regata #photo5 {
+	background-image: url("../fotos/regata/regata5.jpg");
+}
+.regata #photo6 {
+	background-image: url("../fotos/regata/regata6.jpg");
+}
+.regata #photo7 {
+	background-image: url("../fotos/regata/regata7.jpg");
+}
+.regata #photo8 {
+	background-image: url("../fotos/regata/regata8.jpg");
+}
+.regata #photo9 {
+	background-image: url("../fotos/regata/regata9.jpg");
+}
+.regata #photo10 {
+	background-image: url("../fotos/regata/regata10.jpg");
+}
+
+/* ---------- CATALOGO PESCARIA ---------- */
+.pescaria #photo1 {
+	background-image: url("../fotos/pescaria/redecor.jpg");
+	background-position-y: 70%;
+}
+.pescaria #photo2 {
+	background-image: url("../fotos/pescaria/pescaria.jpg");
+}
+.pescaria #photo3 {
+	background-image: url("../fotos/pescaria/pescaria2.jpg");
+}
+
+
+
+
+
+/* MEDIA */
+
+@media (max-width: 768px) { 
+	.photo {
+		width: 768px;
+	}
+	.pescaria #photo1 {
+		background-position-x: 50% 
+	}
+
+	.regata #photo8 {
+		background-position-x: 100%; 
+	}
+	.regata #photo8 {
+		background-position-x: 90%; 
+	}
+	h3 {
+		margin: 1% 0 1% 84%;
+		font-size: 1.5em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.photo {
+		width: 1024px;
+	}
+	.regata #photo7 {
+		background-position-x: 90%; 
+	}
+    
+}

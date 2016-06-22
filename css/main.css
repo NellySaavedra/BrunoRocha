@@ -86,114 +86,132 @@ footer {
     margin-top: 40%;
 }
 /*----------------Ceci----------------*/
-.MtopCarrusel {
-    margin-top: 81px;
+a:hover {
+    color: white;
 }
 a {
     text-decoration: none !important;
 }
-.item img {
-    position: relative;
-    top: -150px;
+
+.col-md-12, .col-xs-12 {
+    height: 100%;
+    padding-right: 0 !important; 
+    padding-left: 0 !important;
 }
-#myCarousel {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 600px;
-}
-.carousel-inner {
-    cursor: default;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 600px;
-}
-.carousel-control {
-    width: 5%;
-    opacity: 1;
-}
-.carousel-control.left {
-    background-image: inherit;
-}
-.carousel-control.right {
-    background-image: inherit;
+
+.catalogos {
+    width: 2700px;
+    letter-spacing:-1px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
 }
 .catalogo {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    
-    top: 0;
-    opacity: 0;
-    transition: all .4s ease-in;
-    cursor: pointer;
+    margin:0px;
+    bottom:0px;
+    width:1350px;
+    float:left;
+    height:100%;
+    color: white;
 }
-.catalogo:hover {
-    opacity: 1;
-}
-.title {
-    font-size: 5em; 
-    color: #ffffff;
-    line-height: 60px; 
-    border: 5px solid white; 
-    padding: 5% 12%;
-    margin: 15% 25%;
-    font-family: 'Poppins', sans-serif;
+
+h2 {
+    font-size: 5em;
     text-align: center;
+    border: 5px solid;
+    padding: 3%;
+}
+#catalogo {
+    padding: 18.5% 30%;
+    color: transparent;
+    height: 100%;
+}
+#catalogo:hover {
+    color: white;
 }
 
-
-/* CATALOGOs */
+/* CATALOGOS...Aportación de Cecy */
 #regata {
+    background-image: url("../fotos/regata/regata3.jpg");
+    background-size: cover;
+    background-position-y: 80%;
+}
+#regata #catalogo:hover {
     background: rgba(28,16,73,0.60);
 }
+
 #felicidade {
+    background-image: url("../fotos/felicidade.jpg");
+    background-size: cover;
+    background-position-y: 60%; 
+}
+#felicidade #catalogo:hover {
     background: rgba(1,139,65,0.60);
 }
+
 #navegador {
+    background-image: url("../fotos/navegador.jpg");
+    background-size: cover;
+    background-position-y: 40%; 
+}
+#navegador #catalogo:hover {
     background: rgba(3,91,36,0.60);
 }
-#regataDos {
+
+#pescaria {
+    
+    background-image: url("../fotos/pescaria/pescaria.jpg");
+    background-size: cover;
+    background-position-y: 50%; 
+}
+#pescaria #catalogo:hover {
     background: rgba(214,180,4,0.60);
 }
 
-/* */
+/* MEDIA */
 
-@media (max-width: 750px) { 
-    #myCarousel {
-        height: 240px;   
+@media (max-width: 768px){
+    #catalogo {
+        height: 100%;
+        padding: 30% 10%;   
     }
-    .carousel-inner {
-        height: 240px; 
+    .catalogo {
+        width: 435px;
+        
     }
-    .title {
+    h2 {
         font-size: 3em;
-        margin: 16%;
     }
-    .item img {
-        position: inherit;
-        top: 0;
+    #felicidade {
+        background-position-x: 50%;
+    }
+    #pescaria {
+        background-position-x: 20%; 
+    }
+    #navegador {
+        background-position-x: 55%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .catalogo {
+        width: 769px;
+    }
+    #catalogo {
+        height: 100%;
+        padding: 20% 15%;
+    }
+    h2 {
+        font-size: 4em;
+    }
+    #felicidade {
+        background-position: 55%;
+    }
+    #pescaria {
+        background-position-x: 40%; 
+    }
+    #navegador {
+        background-position-x: 55%;
     }
 }
 
-@media (min-width: 750px) and (max-width: 970px) {
-    #myCarousel {
-        height: 500px;   
-    }
-    .carousel-inner {
-        height: 500px; 
-    }
-    .title {
-        margin: 23% 19%;
-    }
-    .item img {
-        position: inherit;
-        top: 0;
-    }
-}
-
-.MtopCatalogo1 {
-    margin-top: 5%;
-}
